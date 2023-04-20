@@ -1,0 +1,32 @@
+.body{
+    margin:0;
+}
+
+.header{
+    background-color: #1F2229;
+    height: 76px;
+    border-bottom:solid;
+    border-color: #383D4A;
+    border-width:1px;
+    padding-left: 32px;
+    padding-right: 30px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.city_button{
+    display: flex;
+    align-items: center;
+}
+
+.city_button_text{
+    font-family: Tele2 TextSans;
+    font-weight: 20;
+    color: #FFFFFF;
+}
+
+.stock{
+    height:607px;
+    background-color: #1F2229;
+}
