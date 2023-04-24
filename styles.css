@@ -148,7 +148,7 @@
 .stock_description{
     width: 477px;
     height: 414px;
-    padding-top: 83px;
+    margin-top: 83px;
 }
 
 .stock_description_text{
@@ -195,4 +195,5 @@
     width: 584px;
     height: 551px;
     margin-top:54px;
+    display: flex;
 }
