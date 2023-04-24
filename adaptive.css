@@ -1,0 +1,24 @@
+@media only screen and (max-width: 767px){
+    .header{
+        height: 45px;
+        padding-left: 16px;
+        padding-right: 14px;
+    }
+    .header_logo{
+        width: 48px;
+        height: 18px;
+    }
+    .header_city_button{
+        width: 167px;
+        height: 27px;
+    }
+
+    .header_city_button_text{
+        font-size: 18px;
+    }
+    
+    .header_city_button_icon{
+        width: 24px;
+        height: 24px;
+    }
+}

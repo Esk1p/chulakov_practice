@@ -108,8 +108,12 @@
     align-items: center;
     justify-content: space-between;
 }
+.header_logo{
+    width: 88px;
+    height: 33px;
+}
 
-.city_button{
+.header_city_button{
     width: 190px;
     height: 32px;
     display: flex;
@@ -118,7 +122,7 @@
     cursor: pointer;
 }
 
-.city_button_text{
+.header_city_button_text{
     font-family: Tele2TextSansRegular;
     font-style: normal;
     font-weight: 400;
@@ -127,7 +131,7 @@
     color: #FFFFFF;
 }
 
-.city_button_icon{
+.header_city_button_icon{
     width: 32px;
     height: 32px;
 }
