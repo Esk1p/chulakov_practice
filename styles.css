@@ -96,6 +96,19 @@
     margin:0;
 }
 
+a:link {
+    color: #FFFFFF;
+}
+a:visited {
+    color: #FFFFFF;
+}
+a:hover {
+    color: #FFFFFF;
+}
+a:active {
+    color: #FFFFFF;
+}
+
 .header{
     background-color: #1F2229;
     height: 76px;
@@ -257,5 +270,166 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.promocode{
+    background-color: #1F2229;
+}
+.promocode__body{
+    margin-left: 162px;
+    display: flex;
+}
+
+.promocode__input-number{
+    width: 348px;
+}
+
+.promocode__title{
+    font-family: Tele2DisplayRegular;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-top: 148px;
+    margin-bottom: 64px;
+}
+
+.registration-form{
+    font-family: Tele2TextSansRegular;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138%;
+}
+
+.registration-form__input{
+    display: flex;
+    flex-direction: column;
+    border-bottom:solid;
+    border-width: 2px;
+    border-color: #8F9399;
+    margin-bottom: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #8F9399;
+}
+
+.registration-form__input-form{
+    background-color: transparent;
+    border-color: transparent;
+    font-family: Tele2TextSansRegular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 138%;
+    color: #FFFFFF;
+}
+.registration-form__confirmation{
+    display: flex;
+    margin-bottom: 32px;
+}
+.registration-form__real-checkbox{
+    width: 0;
+    height: 0;
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+.registration-form__custom-checkbox{
+    position: relative;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-width: 2px;
+}
+.registration-form__custom-checkbox::before{
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 8px;
+    background-image:url("imgs/check mark.svg") ;
+    background-size:contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    margin-top: 1px;
+}
+
+.registration-form__real-checkbox:checked + .registration-form__custom-checkbox::before{
+    transform: translate(-50%,-50%) scale(1);
+}
+
+.registration-form__description{
+    margin-left:8px;
+}
+.registration-form__button{
+    width: 218px;
+    height: 48px;
+    margin-bottom: 48px;
+    border-radius: 48px;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1F2229;
+}
+
+.registration-form__status{
+    background-color: #262B36;
+    border-radius: 8px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+    gap:12px;
+}
+
+.promocode__row{
+    margin-left: 132px;
+    margin-top: 148px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.quest-item{
+    display: flex;
+    align-items: center;
+}
+
+.quest-item__number{
+    width: 80px;
+    height: 80px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #39404C;
+    border-radius:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Tele2DisplayRegular;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    color: #48CCFD;
+}
+
+.quest-item__description{
+    margin-left: 24px;
+    font-family: Tele2TextSansRegular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
 }
 
