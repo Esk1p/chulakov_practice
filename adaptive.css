@@ -1,0 +1,62 @@
+@media only screen and (max-width: 320px){
+    .header{
+        height: 45px;
+        padding-left: 16px;
+        padding-right: 14px;
+    }
+    .header_logo{
+        width: 48px;
+        height: 18px;
+    }
+    .header_city_button{
+        width: 167px;
+        height: 27px;
+    }
+
+    .header_city_button_text{
+        font-size: 18px;
+    }
+    
+    .header_city_button_icon{
+        width: 24px;
+        height: 24px;
+    }
+
+    .stock{
+        height: 726px;
+        flex-direction: column;
+        padding-right:0px;
+        padding-left: 0px;
+
+    }
+    .stock_description{
+        width: 296px;
+        height: 321px;
+        margin-top: 24px;
+        margin-left: 16px;
+    }
+
+    .stock_description_text{
+        font-size: 18px;
+    }
+
+    .stock_description_slogan{
+        font-size: 36px;
+        margin-top: 40px;
+        margin-bottom: 16px;
+    }
+
+    .stock_description_button{
+        width: 201px;
+        height: 48px;
+        font-size: 18px;
+        margin-top: 40px;
+    }
+
+    .stock_boss{
+        width: 316px;
+        height: 333px;
+        margin-top: 48px;
+    }
+
+}
