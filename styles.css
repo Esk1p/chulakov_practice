@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Tele2TextSansRegular';
+    src: url('/fonts/Tele2TextSans-Regular-short__W.eot');
+    src:
+            url('/fonts/Tele2TextSans-Regular-short__W.eot?#iefix') format('embedded-opentype'),
+            url('/fonts/Tele2TextSans-Regular-short__W.woff') format('woff'),
+            url('/fonts/Tele2TextSans-Regular-short__W.ttf') format('truetype'),
+            url('/fonts/Tele2TextSans-Regular-short__W.svg#Tele2TextSansWebSHORT-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Standard CT Stencil';
+    src: url('/fonts/StandardCTStencil-Bold.eot');
+    src: url('/fonts/StandardCTStencil-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/StandardCTStencil-Bold.woff2') format('woff2'),
+        url('/fonts/StandardCTStencil-Bold.woff') format('woff'),
+        url('/fonts/StandardCTStencil-Bold.svg#StandardCTStencil-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Tele2DisplayRegular';
+    src: url('/fonts/Tele2DisplaySerif-Regular-short__W.eot');
+    src:
+            url('/fonts/Tele2DisplaySerif-Regular-short__W.eot?#iefix') format('embedded-opentype'),
+            url('/fonts/Tele2DisplaySerif-Regular-short__W.woff') format('woff'),
+            url('/fonts/Tele2DisplaySerif-Regular-short__W.ttf') format('truetype'),
+            url('/fonts/Tele2DisplaySerif-Regular-short__W.svg#Tele2DisplaySerifWebSHORT-Reg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Tele2DisplaySerifTBold';
+    src: url('/fonts/Tele2DisplaySerif-Bold-short__W.eot');
+    src:
+            url('/fonts/Tele2DisplaySerif-Bold-short__W.eot?#iefix') format('embedded-opentype'),
+            url('/fonts/Tele2DisplaySerif-Bold-short__W.woff') format('woff'),
+            url('/fonts/Tele2DisplaySerif-Bold-short__W.ttf') format('truetype'),
+            url('/fonts/Tele2DisplaySerif-Bold-short__W.svg#Tele2DisplaySerifWebSHORT-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.body{
+    margin:0;
+}
+
+.header{
+    background-color: #1F2229;
+    height: 76px;
+    border-bottom:solid;
+    border-color: #383D4A;
+    border-width:1px;
+    padding-left: 32px;
+    padding-right: 30px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.city_button{
+    display: flex;
+    align-items: center;
+}
+
+.city_button_text{
+    font-family: Standard CT Stencil;
+    font-weight: 20;
+    color: #FFFFFF;
+}
