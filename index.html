@@ -5,11 +5,59 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css" type="text/css"/>
+    <link rel="stylesheet" href="adaptive.css" type="text/css"/>
     <title>Tele 2</title>
 </head>
-<body>
-    <header></header>
-    <main></main>
+<body class="body">
+    <header class = "header">
+        <img class = "header_logo"  src = 'imgs/Logo.svg' alt="logo">
+        <div class = "header_city_button">
+            <img class = "header_city_button_icon" src="imgs/Location.svg">
+            <p class='header_city_button_text'>Санкт-Петербург</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="stock">
+            <div class = "stock_description">
+                <p class = "stock_description_text">Акция продлится с 1 по 20 сентября</p>
+                <p class ="stock_description_slogan">это ваша <span class ="stock_description_slogan_highlight_text">выгода!</span></p>
+                <p class = "stock_description_text">Тариф «Мой онлайн+» и 1 ТБ трафика<br>в подарок для новых абонентов</p>
+                <button class = "stock_description_button">Принять участие</button>
+            </div>
+            <img  class = "stock_boss" src = "imgs/Boss1 2.png" >
+        </div>
+        <div class="features">
+            <div class="features__body">
+                <div class="features__about">
+                    <div class="features__title">Один терабайт — много любимых развлечений</div>
+                    <div class="features__description">Подарок получают только новые абоненты при подключении услуг Tele2 с тарифом «Мой онлайн+». Трафик расходуется в течение года.</div>
+                </div>
+                <div class="features__row">
+                    <div class="features__column">
+                        <div class="row-item">
+                            <div class="row-item__box"><img src="imgs/youtube.svg"></div>
+                            <div class="row-item__description">Около 500 часов видео</div>
+                        </div>
+                    </div>
+                    <div class="features__column">
+                        <div class="row-item">
+                            <div class="row-item__box"><img src="imgs/headphones.svg"></div>
+                            <div class="row-item__description">Примерно 200 000 песен</div>
+                        </div>
+                    </div>
+                    <div class="features__column">
+                        <div class="row-item">
+                            <div class="row-item__box"><img src="imgs/photo.svg"></div>
+                            <div class="row-item__description">Порядка 300 000 фото</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
     <footer></footer>
 </body>
 </html>
