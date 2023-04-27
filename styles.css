@@ -121,7 +121,7 @@ a:active {
     align-items: center;
     justify-content: space-between;
 }
-.header_logo{
+.tele2-logo{
     width: 88px;
     height: 33px;
 }
@@ -437,3 +437,67 @@ a:active {
     padding-top: 200px;
 }
 
+.footer-body{
+    background-color:#1F2229 ;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    margin-left:162px ;
+    margin-right: 162px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.footer-top__stock{
+    display: flex;
+    align-items: center;
+    gap:12px;
+    font-family: Tele2TextSansRegular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.footer-top__stock-age{
+    border-radius: 50%;
+    border-color: #FFFFFF;
+    border-style: solid;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFFFFF;
+    font-family: Tele2TextSansRegular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-right: 162px;
+    margin-top: 42px;
+    padding-bottom: 47px;
+}
+
+.footer-bottom__tele2{
+    display: flex;
+    align-items: center;
+    gap:24px;
+    margin-left: 162px;
+}
+
+.footer-bottom__chulakov{
+    display: flex;
+    align-items: center;
+    gap:24px;
+
+}
