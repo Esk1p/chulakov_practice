@@ -5,11 +5,157 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css" type="text/css"/>
+    <link rel="stylesheet" href="adaptive.css" type="text/css"/>
     <title>Tele 2</title>
 </head>
-<body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+<body class="body">
+<header class="header">
+    <img class="tele2-logo" src='imgs/Logo.svg' alt="logo">
+    <div class="header_city_button">
+        <img class="header_city_button_icon" src="imgs/Location.svg">
+        <p class='header_city_button_text'>Санкт-Петербург</p>
+    </div>
+</header>
+
+<main>
+    <div class="stock">
+        <div class="stock_description">
+            <p class="stock_description_text">Акция продлится с 1 по 20 сентября</p>
+            <p class="stock_description_slogan">это ваша <span
+                    class="stock_description_slogan_highlight_text">выгода!</span></p>
+            <p class="stock_description_text">Тариф «Мой онлайн+» и 1 ТБ трафика<br>в подарок для новых абонентов</p>
+            <button class="button">Принять участие</button>
+        </div>
+        <img class="stock_boss" src="imgs/Boss1 2.png">
+    </div>
+    <div class="features">
+        <div class="features__body">
+            <div class="about">
+                <div class="about__title">Один терабайт — много любимых развлечений</div>
+                <div class="about__description">Подарок получают только новые абоненты при подключении услуг Tele2 с
+                    тарифом «Мой онлайн+». Трафик расходуется в течение года.
+                </div>
+            </div>
+            <div class="features__row">
+                <div class="features__column">
+                    <div class="row-item">
+                        <div class="row-item__box"><img src="imgs/youtube.svg"></div>
+                        <div class="row-item__description">Около 500 часов видео</div>
+                    </div>
+                </div>
+                <div class="features__column">
+                    <div class="row-item">
+                        <div class="row-item__box"><img src="imgs/headphones.svg"></div>
+                        <div class="row-item__description">Примерно 200 000 песен</div>
+                    </div>
+                </div>
+                <div class="features__column">
+                    <div class="row-item">
+                        <div class="row-item__box"><img src="imgs/photo.svg"></div>
+                        <div class="row-item__description">Порядка 300 000 фото</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="promocode">
+        <div class="promocode__body">
+            <div class="promocode__input-number">
+                <div class="promocode__title">Несколько шагов <span class="stock_description_slogan_highlight_text">и 1 ТБ — ваш</span>
+                </div>
+                <div class="promocode__confirmation">
+                    <div class="registration-form">
+                        <label class="registration-form__input">
+                            Номер телефона
+                            <input class="registration-form__input-form" type="text" placeholder="+7(800) 535-35-35">
+                        </label>
+                        <div class="registration-form__confirmation">
+                            <label class="registration-form_checkbox">
+                                <input type="checkbox" class="registration-form__real-checkbox">
+                                <span class="registration-form__custom-checkbox"></span>
+                            </label>
+                            <div class="registration-form__description">Даю согласие на обработку персональных данных.
+                                <a href="https://msk.tele2.ru/help/blanks">Условия соглашения</a>.
+                            </div>
+                        </div>
+                        <button class="button">Выслать промокод</button>
+                        <div class="registration-form__status">
+                            <img src="imgs/accesOK.svg">
+                            <p>Промокод выслан на ваш номер</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="promocode__row">
+                <div class="promocode__column">
+                    <div class="quest-item">
+                        <div class="quest-item__number">1</div>
+                        <div class="quest-item__description">Ведите свой номер телефона, затем дождитесь<br> смс с
+                            промокодом для получения Тб
+                        </div>
+                    </div>
+                </div>
+                <div class="promocode__column">
+                    <div class="quest-item">
+                        <div class="quest-item__number">2</div>
+                        <div class="quest-item__description">Перейдите на <a href="https://msk.tele2.ru/">сайт Tele2</a>
+                            и активируйте промокод при<br>
+                            подключении на тариф «Мой Онлайн+»
+                        </div>
+                    </div>
+                </div>
+                <div class="promocode__column">
+                    <div class="quest-item">
+                        <div class="quest-item__number">3</div>
+                        <div class="quest-item__description">Используйте свой подарочный ТБ от Tele2<br> в течение всего
+                            года
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tariff">
+        <div class="tariff__body">
+            <div class="tariff__description">
+                <div class="about">
+                    <div class="about__title">Заходите на сайт Tele2</div>
+                    <div class="about__description">Перейдите в магазин, оформите тариф «Мой онлайн+»<br> и на страничке
+                        активации введите ваш промокод. Готово!
+                    </div>
+                    <div class="button">Оформить тариф</div>
+                </div>
+            </div>
+            <img src="imgs/phone.svg" class="photo-phone">
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="footer-body">
+        <div class="footer-top">
+            <div class="footer-top__networks">
+                <img src="imgs/Twitter.svg" class="footer-top__networks-item">
+                <img src="imgs/VKontakte.svg" class="footer-top__networks-item">
+                <img src="imgs/Facebook.svg" class="footer-top__networks-item">
+            </div>
+            <div class="footer-top__stock">
+                Полные условия акции
+                <div class="footer-top__stock-age">16+</div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-bottom__tele2">
+                <img  class="tele2-logo" src='imgs/Logo.svg' alt="logo">
+                <div class="footer-bottom__tele2-description">© Tele2 Россия, 2021</div>
+            </div>
+            <div class="footer-bottom__chulakov">
+                <div class="footer-bottom__chulakov-description">Сделано в Студии Олега Чулакова</div>
+                <img  class="chulakov-logo" src='imgs/chulakov%20logo.svg' alt="logo">
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
