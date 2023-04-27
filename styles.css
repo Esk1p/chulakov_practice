@@ -219,7 +219,42 @@ a:active {
 }
 .features__body{
     width: 1013px;
+    margin-left: 162px;
+    padding-top: 150px;
 }
+
+.about{
+    color:#FFFFFF;
+}
+.about__title{
+    font-family: Tele2DisplayRegular;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    margin-bottom: 24px;
+}
+
+.about__description{
+    font-family: Tele2TextSansRegular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.features__row{
+    color: #FFFFFF;
+    font-family: Tele2TextSansRegular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 56px;
+}
+
 .row-item{
     display: flex;
     align-items: center;
@@ -233,46 +268,6 @@ a:active {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.features__body{
-    margin-left: 162px;
-    padding-top: 150px;
-}
-
-.about{
-    color:#FFFFFF;
-}
-
-.about__title{
-    font-family: Tele2DisplayRegular;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 130%;
-    margin-bottom: 24px;
-}
-
-.about__description{
-    width:665px;
-    height: 60px;
-    font-family: Tele2TextSansRegular;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 150%;
-    margin-bottom: 56px;
-}
-
-.features__row{
-    color: #FFFFFF;
-    font-family: Tele2TextSansRegular;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 150%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .promocode{
@@ -385,6 +380,7 @@ a:active {
 }
 
 .promocode__row{
+
     margin-left: 132px;
     margin-top: 148px;
     display: flex;
@@ -395,6 +391,7 @@ a:active {
 .quest-item{
     display: flex;
     align-items: center;
+    gap:24px;
 }
 
 .quest-item__number{
@@ -416,25 +413,32 @@ a:active {
 }
 
 .quest-item__description{
-    margin-left: 24px;
+
     font-family: Tele2TextSansRegular;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 150%;
     color: #FFFFFF;
+    width: 494px;
 }
 
 .tariff{
     background-color:#1F2229;
 }
-
+.tariff-description{
+    margin-bottom: 48px;
+}
 .tariff__body{
     margin-left: 162px;
     display: flex;
     align-items: center;
     gap:118px;
     padding-top: 200px;
+}
+
+.photo-phone{
+    margin-bottom: 148px;
 }
 
 .footer-body{
@@ -484,6 +488,7 @@ a:active {
     font-size: 16px;
     line-height: 22px;
     margin-right: 162px;
+    margin-left: 162px;
     margin-top: 42px;
     padding-bottom: 47px;
 }
@@ -492,7 +497,6 @@ a:active {
     display: flex;
     align-items: center;
     gap:24px;
-    margin-left: 162px;
 }
 
 .footer-bottom__chulakov{
